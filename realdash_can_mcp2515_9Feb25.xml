@@ -48,9 +48,9 @@
       <!-- note that 9 bit values all come from same 2 bytes -->
       <!-- if units="bit", RealDash always checks the lowest bit as of value on or off. Therefore the bitshift to the right on conversion -->
       	<!-- <value  targetId="127" offset="2" length="2"></value> -->
-      <value name="Arduino Example: Digital 1" startbit="0" bitcount="1"></value>
-      <value name="Arduino Example: Digital 2" startbit="1" bitcount="1"></value>
-      <value name="Arduino Example: Digital 3" startbit="2" bitcount="1"></value>
+      <value name="Arduino Example: Digital 1" startbit="1" bitcount="1"></value>
+      <value name="Arduino Example: Digital 2" startbit="2" bitcount="1"></value>
+      <value name="Arduino Example: Digital 3" startbit="0" bitcount="1"></value>
       <value targetId="160" name="Arduino Example: Digital 4" startbit="3" bitcount="1"></value>
       <value targetId="161" name="Arduino Example: Digital 5" startbit="4" bitcount="1"></value>
       <value targetId="157" name="Arduino Example: Digital 6" startbit="5" bitcount="1"></value>
@@ -69,10 +69,10 @@
 
     <!-- 3rd CAN frame contains rest of Arduino analog inputs -->
     <frame id="3202">
-      <value name="Arduino Example: Analog 4" offset="0" length="2"></value>
-      <value name="Arduino Example: Analog 5" offset="2" length="2"></value>
-      <value name="Arduino Example: Analog 6" offset="4" length="2"></value>
-      <value name="Arduino Example: Analog 7" offset="6" length="2"></value>
+      <value name="Arduino Example: Analog 7" offset="0" length="2"></value>
+      <value name="Arduino Example: Analog 6" offset="2" length="2"></value>
+      <value name="Arduino Example: Analog 5" offset="4" length="2"></value>
+      <value name="Arduino Example: Analog 4" offset="6" length="2"></value>
     </frame>
     <frame id="3203">
       <!-- 4th CAN frame, example of text extension frame -->
